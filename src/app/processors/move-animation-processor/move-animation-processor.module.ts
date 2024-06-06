@@ -1,0 +1,1 @@
+import { CommonModule } from '@angular/common';import { NgModule } from '@angular/core';import { MoveAnimationProcessor } from './move-animation-processor';@NgModule({    imports: [CommonModule],    declarations: [MoveAnimationProcessor],    exports: [MoveAnimationProcessor]})export class MoveAnimationProcessorModule {}

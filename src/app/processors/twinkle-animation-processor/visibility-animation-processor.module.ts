@@ -1,0 +1,1 @@
+import { CommonModule } from '@angular/common';import { NgModule } from '@angular/core';import { VisibilityAnimationProcessor } from './visibility-animation-processor';@NgModule({    imports: [CommonModule],    declarations: [VisibilityAnimationProcessor],    exports: [VisibilityAnimationProcessor]})export class VisibilityAnimationProcessorModule {}

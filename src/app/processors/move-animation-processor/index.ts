@@ -1,0 +1,1 @@
+export * from './move-animation-processor';export * from './move-animation-processor.module';

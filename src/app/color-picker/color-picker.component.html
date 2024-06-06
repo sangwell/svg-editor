@@ -1,0 +1,6 @@
+<ng-template #contentTemplate>
+  <color-sketch [color]="color" (onChangeComplete)="colorChangeComplete($event)"></color-sketch>
+</ng-template>
+<div nz-popover [nzPopoverContent]="contentTemplate" nzPopoverTrigger="click" class="color-panel"
+     [ngStyle]="{'background':color}">
+</div>
